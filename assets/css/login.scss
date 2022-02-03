@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter',
+        sans-serif;
+}
+
+nav {
+    .navbar-brand {
+        color: #060684 !important;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .navbar-nav {
+        .nav-link {
+            &.active {
+                font-weight: bold;
+                color: #060684 !important;
+            }
+
+            &:hover {
+                color: #060684 !important;
+            }
+        }
+    }
+
+    .btn-login {
+        background-color: #060684;
+        color: #fff;
+        border-radius: 0px;
+
+        &:hover {
+            background-color: #0909a0;
+            color: #fff;
+        }
+    }
+}
+
+//main
+main{
+    background-color: #37376b;
+    padding-top: 70px;
+    padding-bottom: 50px;
+
+    .section-login{
+        .section-left{
+            h1{
+                color: #fff;
+                margin-top: 50px;
+            }
+
+            p{
+                color: #fff;
+            }
+
+        }
+
+        .section-right{
+            form{
+
+                label{
+                    margin-bottom: 8px;
+                }
+                .field{
+                    border-radius: 30px;
+                    margin-bottom: 16px;
+                }
+
+                .forgotPass{
+                    font-size: 12px;
+                }
+
+                a {
+                    font-weight: 400;
+                    text-decoration: none;
+                    font-size: 16px;
+                    text-align: center;
+                    color: #838383;
+
+                    &:hover {
+                        color: black;
+                    }
+                }
+
+                .btn-login {
+                    background-color: #5db3ec;
+                    border-radius: 30px;
+
+                    &:hover {
+                        background-color: #68c1fc;
+                    }
+                }
+
+                .btn-register {
+                    background-color: rgb(236, 236, 236);
+                    border-radius: 30px;
+                    transition: .8s;
+
+                    &:hover {
+                        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+                            0 6px 6px rgba(0, 0, 0, 0.23);
+
+                    }
+                }
+            }
+
+            .btn-google{
+                background-color: #37376B;
+                border-radius: 30px;
+                color: #cccccc;
+
+                &:hover {
+                    color: #fff;
+                }
+            }
+
+            
+        }
+    }
+}
+
+//footer
+.section-footer {
+    padding-top: 50px;
+    background-color: #101419;
+
+    .section-right {
+        h4 {
+            color: #060684;
+            font-weight: bold;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #fff;
+            font-weight: lighter;
+            font-size: 18px;
+        }
+    }
+
+    .section-left {
+        margin-top: 50px;
+
+        h5 {
+            font-weight: 600;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 15px;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: lighter;
+            font-size: 16px;
+
+            &:hover {
+                text-decoration: underline #96d7eb;
+            }
+        }
+    }
+
+    .copyrights {
+        color: #fff;
+        font-weight: lighter;
+    }
+}
+
+/*css3 design scrollbar*/
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background: #F8F9FA;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(7, 68, 138);
+}
+
+//breakpoints
+//tablet
+@media only screen and (min-width: 768px){
+    main{
+        height: 90vh;
+    }
+}
+
+//desktop
+@media only screen and (min-width: 992px) {
+    nav {
+        ul {
+            margin-left: 35%;
+        }
+    }
+}

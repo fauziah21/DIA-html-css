@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+nav .navbar-brand {
+  color: #060684 !important;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #060684 !important;
+}
+
+nav .navbar-nav .nav-link:hover {
+  color: #060684 !important;
+}
+
+nav .btn-login {
+  background-color: #060684;
+  color: #fff;
+  border-radius: 0px;
+}
+
+nav .btn-login:hover {
+  background-color: #0909a0;
+  color: #fff;
+}
+
+header {
+  height: 90vh;
+  padding: 120px 0 165px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ccd8fc), to(#434379));
+  background: linear-gradient(#ccd8fc 0%, #434379 100%);
+}
+
+header h1 {
+  margin-top: 100px;
+}
+
+header .btn-login {
+  background-color: #060684;
+  color: #fff;
+  border-radius: 20px;
+  width: 20%;
+  margin-top: 20px;
+  margin-left: 200px;
+}
+
+header .btn-login:hover {
+  background-color: #0909a0;
+  color: #fff;
+}
+
+header img {
+  width: 40vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  border-radius: .5rem;
+}
+
+header .box-img::before {
+  content: '';
+  width: 40vw;
+  height: 53%;
+  position: absolute;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(168, 181, 255, 0.74)), to(rgba(27, 44, 141, 0.5)));
+  background: linear-gradient(to bottom, rgba(168, 181, 255, 0.74), rgba(27, 44, 141, 0.5));
+  -webkit-box-shadow: 0.5rem 0.5rem 3rem 1px rgba(0, 0, 0, 0.05);
+          box-shadow: 0.5rem 0.5rem 3rem 1px rgba(0, 0, 0, 0.05);
+  border-radius: .5rem;
+}
+
+main {
+  background: #101419;
+}
+
+main .section-content .section-content-heading {
+  height: 20vh;
+}
+
+main .section-content .section-content-heading h2 {
+  padding-top: 30px;
+  color: #fff;
+}
+
+main .section-cards .card-value {
+  background-color: #0A0F16;
+  border-radius: 16px;
+}
+
+main .section-cards .card-value img {
+  margin-bottom: 40px;
+}
+
+main .section-cards .card-value h5 {
+  margin-bottom: 11px;
+}
+
+main .section-cards .card-value p {
+  font-weight: lighter;
+}
+
+main .section-partners {
+  margin-top: 50px;
+  padding: 50px 0;
+}
+
+main .section-partners h2 {
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+main .section-partners img {
+  max-width: 60vw;
+}
+
+.section-footer {
+  padding-top: 50px;
+  background-color: #101419;
+}
+
+.section-footer .section-right h4 {
+  color: #1a1a86;
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.section-footer .section-right p {
+  color: #fff;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.section-footer .section-left {
+  margin-top: 50px;
+}
+
+.section-footer .section-left h5 {
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.section-footer .section-left li {
+  margin-bottom: 15px;
+}
+
+.section-footer .section-left a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+.section-footer .section-left a:hover {
+  -webkit-text-decoration: underline  #96d7eb;
+          text-decoration: underline  #96d7eb;
+}
+
+.section-footer .copyrights {
+  color: #fff;
+  font-weight: lighter;
+}
+
+/*css3 design scrollbar*/
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background: #F8F9FA;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #07448a;
+}
+
+@media only screen and (min-width: 992px) {
+  nav ul {
+    margin-left: 35%;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  header {
+    background-image: url(../images/20944999.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  header .headline {
+    background-color: rgba(78, 78, 248, 0.85);
+    border-radius: 16px;
+    margin-top: -150px;
+    width: 100%;
+    height: 90vh;
+  }
+  header h1 {
+    padding-top: 250px;
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+  }
+  header .btn-login {
+    margin-top: 20px;
+    margin-left: 130px;
+    margin-bottom: 20px;
+    width: 50%;
+  }
+  header img {
+    display: none;
+  }
+  header .box-img::before {
+    display: none;
+  }
+  footer .section-left h5 {
+    margin-top: 20px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

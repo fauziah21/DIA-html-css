@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+nav .navbar-brand {
+  color: #060684 !important;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #060684 !important;
+}
+
+nav .navbar-nav .nav-link:hover {
+  color: #060684 !important;
+}
+
+nav .btn-login {
+  background-color: #060684;
+  color: #fff;
+  border-radius: 0px;
+}
+
+nav .btn-login:hover {
+  background-color: #0909a0;
+  color: #fff;
+}
+
+main {
+  background-color: #37376b;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+main .section-login .section-left h1 {
+  color: #fff;
+  margin-top: 50px;
+}
+
+main .section-login .section-left p {
+  color: #fff;
+}
+
+main .section-login .section-right form label {
+  margin-bottom: 8px;
+}
+
+main .section-login .section-right form .field {
+  border-radius: 30px;
+  margin-bottom: 16px;
+}
+
+main .section-login .section-right form .forgotPass {
+  font-size: 12px;
+}
+
+main .section-login .section-right form a {
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+  color: #838383;
+}
+
+main .section-login .section-right form a:hover {
+  color: black;
+}
+
+main .section-login .section-right form .btn-login {
+  background-color: #5db3ec;
+  border-radius: 30px;
+}
+
+main .section-login .section-right form .btn-login:hover {
+  background-color: #68c1fc;
+}
+
+main .section-login .section-right form .btn-register {
+  background-color: #ececec;
+  border-radius: 30px;
+  -webkit-transition: .8s;
+  transition: .8s;
+}
+
+main .section-login .section-right form .btn-register:hover {
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+main .section-login .section-right .btn-google {
+  background-color: #37376B;
+  border-radius: 30px;
+  color: #cccccc;
+}
+
+main .section-login .section-right .btn-google:hover {
+  color: #fff;
+}
+
+.section-footer {
+  padding-top: 50px;
+  background-color: #101419;
+}
+
+.section-footer .section-right h4 {
+  color: #060684;
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.section-footer .section-right p {
+  color: #fff;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.section-footer .section-left {
+  margin-top: 50px;
+}
+
+.section-footer .section-left h5 {
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.section-footer .section-left li {
+  margin-bottom: 15px;
+}
+
+.section-footer .section-left a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+.section-footer .section-left a:hover {
+  -webkit-text-decoration: underline #96d7eb;
+          text-decoration: underline #96d7eb;
+}
+
+.section-footer .copyrights {
+  color: #fff;
+  font-weight: lighter;
+}
+
+/*css3 design scrollbar*/
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background: #F8F9FA;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #07448a;
+}
+
+@media only screen and (min-width: 768px) {
+  main {
+    height: 90vh;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  nav ul {
+    margin-left: 35%;
+  }
+}
+/*# sourceMappingURL=login.css.map */
